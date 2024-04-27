@@ -11,10 +11,10 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar bg-primary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar bg-primary " data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ladder"
+                pbs<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-ladder"
                     viewBox="0 0 16 16">
                     <path
                         d="M4.5 1a.5.5 0 0 1 .5.5V2h6v-.5a.5.5 0 0 1 1 0v14a.5.5 0 0 1-1 0V15H5v.5a.5.5 0 0 1-1 0v-14a.5.5 0 0 1 .5-.5M5 14h6v-2H5zm0-3h6V9H5zm0-3h6V6H5zm0-3h6V3H5z" />
@@ -39,12 +39,12 @@
                             Our Services
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Bookkeeping, Accounting and Management</a></li>
-                            <li><a class="dropdown-item" href="#">Business Advisory and Consulting</a></li>
+                            <li><a class="dropdown-item" href="#bookkeeping">Bookkeeping, Accounting and Management</a></li>
+                            <li><a class="dropdown-item" href="#consulting">Business Advisory and Consulting</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Municipal Billing Queries</a></li>
+                            <li><a class="dropdown-item" href="#municipal">Municipal Billing Queries</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -87,7 +87,7 @@
     <!-- Container -->
     <div class="container-fluid">
         <div class="row">
-            <h5 class="text-center" id="about"> About Us</h5>
+            <h3 class="text-center" id="about"> About Us</h3>
         </div>
 
         <p>WE are a team of qualified management and financial accounting professionals.
@@ -100,9 +100,88 @@
         ...
     </div>
 
+    <div class="container">
+        <div class="row">
+            <h3 class="text-center" id="services"> Our Services</h3>
+        </div>
+        <div class="row mt-5">
+            <div class="col-8" id="bookkeeping">Bookkeeping and Accounting
+                <p>We provide bookkeeping and accounting services to small to medium enterprises.
+                    We ensure that our clients get accurate and timely financial reports in a format that 
+                    they can easily understand. Our job is to simplify the numbers in a manor that
+                    our clients can easily understand. 
+                    Your finances are the life blood of your business and we ensure that you always have your hand on the pulse 
+                    of your business. 
+                </p>
+            </div>
+            <div class="col-4"><img src="image1.png" class="img-fluid" alt="..."></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-8" id="consulting">Consulting and Advisory
+                <p>Our consulting and advisory unit will sit down with you to understand the specific and unique
+                    requirements of your business. We will then design a business strategy that addresses the specifics of
+                    your business and that will ensure your business gets to the next level. <br>
+                    This may include an operations strategy, a marketing plan or process restructuring amongst other solutions. 
+
+
+                </p>
+            </div>
+            <div class="col-4"><img src="image2.jpg" class="img-fluid" alt="..."></div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-8" id="municipal">Municipal Billing Queries
+                <p>Many clients experience wrong billings from council and these wrong billings usually affect
+                    the profits of the business because they are usually overstated. 
+                    Our team will analyse your municipal account statements over a period and we can tell whether there 
+                    is reasonable cause to raise a query with the council and get the account resolved. 
+                    We will them lodge a query with council and follow it up to its conclusion so that you may get
+                     a refund where necessary.  
+                </p>
+            </div>
+            <div class="col-4"><img src="image3.jpg" class="img-fluid" alt="..."></div>
+        </div>
+
+
+
+      </div>
+
     <!-- Slider/ progress bar -->
 
     <!-- Arcodian -->
+
+    <h3 class="text-center" >FAQs</h3>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              How does my business benefit from bookkeeping and accounting services?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Does my business have to sign long-term contract to get bookkeeping services?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Accordion Item #3
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+          </div>
+        </div>
+      </div>
 
     <!-- Footer -->
 
